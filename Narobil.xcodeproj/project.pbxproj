@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE235FA623D60E5F000B756E /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE235F9C23D60E5D000B756E /* Rubik-BlackItalic.ttf */; };
+		CE235FA723D60E5F000B756E /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE235F9D23D60E5D000B756E /* Rubik-LightItalic.ttf */; };
+		CE235FA823D60E5F000B756E /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE235F9E23D60E5E000B756E /* Rubik-Italic.ttf */; };
+		CE235FA923D60E5F000B756E /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE235F9F23D60E5E000B756E /* Rubik-BoldItalic.ttf */; };
+		CE235FAA23D60E5F000B756E /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE235FA023D60E5F000B756E /* Rubik-Black.ttf */; };
+		CE235FAB23D60E5F000B756E /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE235FA123D60E5F000B756E /* Rubik-Medium.ttf */; };
+		CE235FAC23D60E5F000B756E /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE235FA223D60E5F000B756E /* Rubik-Light.ttf */; };
+		CE235FAD23D60E5F000B756E /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE235FA323D60E5F000B756E /* Rubik-Bold.ttf */; };
+		CE235FAE23D60E5F000B756E /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE235FA423D60E5F000B756E /* Rubik-MediumItalic.ttf */; };
+		CE235FAF23D60E5F000B756E /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE235FA523D60E5F000B756E /* Rubik-Regular.ttf */; };
+		CE235FB223D60FF9000B756E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE235FB123D60FF9000B756E /* OnboardingViewController.swift */; };
+		CE235FB523D6242D000B756E /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE235FB423D6242D000B756E /* OnboardingCollectionViewCell.swift */; };
+		CE235FB823D624DC000B756E /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE235FB723D624DC000B756E /* Slide.swift */; };
+		CE9A22AD23D85F48009FBA4B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A22AC23D85F48009FBA4B /* RegisterViewController.swift */; };
+		CE9A232D23D8B932009FBA4B /* NarobilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A232C23D8B932009FBA4B /* NarobilUITests.swift */; };
+		CE9A233B23D8B93A009FBA4B /* NarobilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A233A23D8B93A009FBA4B /* NarobilTests.swift */; };
+		CEABD82223D777A3009C63C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEABD82123D777A3009C63C7 /* Assets.xcassets */; };
+		CEABD82423D82963009C63C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABD82323D82963009C63C7 /* LoginViewController.swift */; };
+		CEEA0A4E23D5AAE3005ECDAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA0A4D23D5AAE3005ECDAB /* AppDelegate.swift */; };
+		CEEA0A5023D5AAE3005ECDAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA0A4F23D5AAE3005ECDAB /* SceneDelegate.swift */; };
+		CEEA0A5523D5AAE3005ECDAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEA0A5323D5AAE3005ECDAB /* Main.storyboard */; };
+		CEEA0A5A23D5AAE4005ECDAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEA0A5823D5AAE4005ECDAB /* LaunchScreen.storyboard */; };
+		CEEA0A6323D5AE84005ECDAB /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA0A6223D5AE84005ECDAB /* LoadingViewController.swift */; };
+		CEEA0A6623D5CF82005ECDAB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA0A6523D5CF82005ECDAB /* Helper.swift */; };
+		CEEA0A6823D5D726005ECDAB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA0A6723D5D726005ECDAB /* Constants.swift */; };
+		CEEA0A6A23D5DF87005ECDAB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA0A6923D5DF87005ECDAB /* SettingsViewController.swift */; };
+		CEEA0A6D23D5EDA8005ECDAB /* Presentermanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA0A6C23D5EDA8005ECDAB /* Presentermanager.swift */; };
+		CEEDF64A23D9D6DE00AABAF7 /* LupaSandiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDF64923D9D6DE00AABAF7 /* LupaSandiViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE9A232F23D8B932009FBA4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEA0A4223D5AAE3005ECDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEEA0A4923D5AAE3005ECDAB;
+			remoteInfo = Narobil;
+		};
+		CE9A233D23D8B93A009FBA4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEA0A4223D5AAE3005ECDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEEA0A4923D5AAE3005ECDAB;
+			remoteInfo = Narobil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE235F9C23D60E5D000B756E /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CE235F9D23D60E5D000B756E /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		CE235F9E23D60E5E000B756E /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		CE235F9F23D60E5E000B756E /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE235FA023D60E5F000B756E /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		CE235FA123D60E5F000B756E /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		CE235FA223D60E5F000B756E /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		CE235FA323D60E5F000B756E /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		CE235FA423D60E5F000B756E /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CE235FA523D60E5F000B756E /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		CE235FB123D60FF9000B756E /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		CE235FB423D6242D000B756E /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE235FB723D624DC000B756E /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		CE9A22AC23D85F48009FBA4B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CE9A232A23D8B932009FBA4B /* NarobilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NarobilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9A232C23D8B932009FBA4B /* NarobilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarobilUITests.swift; sourceTree = "<group>"; };
+		CE9A232E23D8B932009FBA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9A233823D8B93A009FBA4B /* NarobilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NarobilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9A233A23D8B93A009FBA4B /* NarobilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarobilTests.swift; sourceTree = "<group>"; };
+		CE9A233C23D8B93A009FBA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEABD82123D777A3009C63C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Narobil/AppIcons (1)/Assets.xcassets"; sourceTree = "<group>"; };
+		CEABD82323D82963009C63C7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CEEA0A4A23D5AAE3005ECDAB /* Narobil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Narobil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEA0A4D23D5AAE3005ECDAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEEA0A4F23D5AAE3005ECDAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEEA0A5423D5AAE3005ECDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEEA0A5923D5AAE4005ECDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEEA0A5B23D5AAE4005ECDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEA0A6223D5AE84005ECDAB /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		CEEA0A6523D5CF82005ECDAB /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CEEA0A6723D5D726005ECDAB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CEEA0A6923D5DF87005ECDAB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CEEA0A6C23D5EDA8005ECDAB /* Presentermanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentermanager.swift; sourceTree = "<group>"; };
+		CEEDF64923D9D6DE00AABAF7 /* LupaSandiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LupaSandiViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9A232723D8B932009FBA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9A233523D8B93A009FBA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA0A4723D5AAE3005ECDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE235F9B23D60E42000B756E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE235FA023D60E5F000B756E /* Rubik-Black.ttf */,
+				CE235F9C23D60E5D000B756E /* Rubik-BlackItalic.ttf */,
+				CE235FA323D60E5F000B756E /* Rubik-Bold.ttf */,
+				CE235F9F23D60E5E000B756E /* Rubik-BoldItalic.ttf */,
+				CE235F9E23D60E5E000B756E /* Rubik-Italic.ttf */,
+				CE235FA223D60E5F000B756E /* Rubik-Light.ttf */,
+				CE235F9D23D60E5D000B756E /* Rubik-LightItalic.ttf */,
+				CE235FA123D60E5F000B756E /* Rubik-Medium.ttf */,
+				CE235FA423D60E5F000B756E /* Rubik-MediumItalic.ttf */,
+				CE235FA523D60E5F000B756E /* Rubik-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		CE235FB023D60E65000B756E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE235F9B23D60E42000B756E /* fonts */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		CE235FB323D62407000B756E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				CE235FB423D6242D000B756E /* OnboardingCollectionViewCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		CE235FB623D624BE000B756E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CE235FB723D624DC000B756E /* Slide.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CE9A232B23D8B932009FBA4B /* NarobilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A232C23D8B932009FBA4B /* NarobilUITests.swift */,
+				CE9A232E23D8B932009FBA4B /* Info.plist */,
+			);
+			path = NarobilUITests;
+			sourceTree = "<group>";
+		};
+		CE9A233923D8B93A009FBA4B /* NarobilTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A233A23D8B93A009FBA4B /* NarobilTests.swift */,
+				CE9A233C23D8B93A009FBA4B /* Info.plist */,
+			);
+			path = NarobilTests;
+			sourceTree = "<group>";
+		};
+		CEEA0A4123D5AAE3005ECDAB = {
+			isa = PBXGroup;
+			children = (
+				CE235FB623D624BE000B756E /* model */,
+				CEEA0A4C23D5AAE3005ECDAB /* Narobil */,
+				CE9A232B23D8B932009FBA4B /* NarobilUITests */,
+				CE9A233923D8B93A009FBA4B /* NarobilTests */,
+				CEEA0A4B23D5AAE3005ECDAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEEA0A4B23D5AAE3005ECDAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA0A4A23D5AAE3005ECDAB /* Narobil.app */,
+				CE9A232A23D8B932009FBA4B /* NarobilUITests.xctest */,
+				CE9A233823D8B93A009FBA4B /* NarobilTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEA0A4C23D5AAE3005ECDAB /* Narobil */ = {
+			isa = PBXGroup;
+			children = (
+				CE235FB323D62407000B756E /* views */,
+				CE235FB023D60E65000B756E /* resources */,
+				CEEA0A6B23D5ED84005ECDAB /* manager */,
+				CEEA0A6423D5CF49005ECDAB /* helper */,
+				CEEA0A6123D5AE48005ECDAB /* controller */,
+				CEEA0A4D23D5AAE3005ECDAB /* AppDelegate.swift */,
+				CEEA0A4F23D5AAE3005ECDAB /* SceneDelegate.swift */,
+				CEEA0A5323D5AAE3005ECDAB /* Main.storyboard */,
+				CEABD82123D777A3009C63C7 /* Assets.xcassets */,
+				CEEA0A5823D5AAE4005ECDAB /* LaunchScreen.storyboard */,
+				CEEA0A5B23D5AAE4005ECDAB /* Info.plist */,
+			);
+			path = Narobil;
+			sourceTree = "<group>";
+		};
+		CEEA0A6123D5AE48005ECDAB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA0A6223D5AE84005ECDAB /* LoadingViewController.swift */,
+				CEEA0A6923D5DF87005ECDAB /* SettingsViewController.swift */,
+				CE235FB123D60FF9000B756E /* OnboardingViewController.swift */,
+				CEABD82323D82963009C63C7 /* LoginViewController.swift */,
+				CE9A22AC23D85F48009FBA4B /* RegisterViewController.swift */,
+				CEEDF64923D9D6DE00AABAF7 /* LupaSandiViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CEEA0A6423D5CF49005ECDAB /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA0A6523D5CF82005ECDAB /* Helper.swift */,
+				CEEA0A6723D5D726005ECDAB /* Constants.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		CEEA0A6B23D5ED84005ECDAB /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA0A6C23D5EDA8005ECDAB /* Presentermanager.swift */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9A232923D8B932009FBA4B /* NarobilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9A233123D8B932009FBA4B /* Build configuration list for PBXNativeTarget "NarobilUITests" */;
+			buildPhases = (
+				CE9A232623D8B932009FBA4B /* Sources */,
+				CE9A232723D8B932009FBA4B /* Frameworks */,
+				CE9A232823D8B932009FBA4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9A233023D8B932009FBA4B /* PBXTargetDependency */,
+			);
+			name = NarobilUITests;
+			productName = NarobilUITests;
+			productReference = CE9A232A23D8B932009FBA4B /* NarobilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CE9A233723D8B93A009FBA4B /* NarobilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9A233F23D8B93A009FBA4B /* Build configuration list for PBXNativeTarget "NarobilTests" */;
+			buildPhases = (
+				CE9A233423D8B93A009FBA4B /* Sources */,
+				CE9A233523D8B93A009FBA4B /* Frameworks */,
+				CE9A233623D8B93A009FBA4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9A233E23D8B93A009FBA4B /* PBXTargetDependency */,
+			);
+			name = NarobilTests;
+			productName = NarobilTests;
+			productReference = CE9A233823D8B93A009FBA4B /* NarobilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEEA0A4923D5AAE3005ECDAB /* Narobil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEA0A5E23D5AAE4005ECDAB /* Build configuration list for PBXNativeTarget "Narobil" */;
+			buildPhases = (
+				CEEA0A4623D5AAE3005ECDAB /* Sources */,
+				CEEA0A4723D5AAE3005ECDAB /* Frameworks */,
+				CEEA0A4823D5AAE3005ECDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Narobil;
+			productName = Narobil;
+			productReference = CEEA0A4A23D5AAE3005ECDAB /* Narobil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEEA0A4223D5AAE3005ECDAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Dharmendria;
+				TargetAttributes = {
+					CE9A232923D8B932009FBA4B = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = CEEA0A4923D5AAE3005ECDAB;
+					};
+					CE9A233723D8B93A009FBA4B = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = CEEA0A4923D5AAE3005ECDAB;
+					};
+					CEEA0A4923D5AAE3005ECDAB = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CEEA0A4523D5AAE3005ECDAB /* Build configuration list for PBXProject "Narobil" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEEA0A4123D5AAE3005ECDAB;
+			productRefGroup = CEEA0A4B23D5AAE3005ECDAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEEA0A4923D5AAE3005ECDAB /* Narobil */,
+				CE9A232923D8B932009FBA4B /* NarobilUITests */,
+				CE9A233723D8B93A009FBA4B /* NarobilTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9A232823D8B932009FBA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9A233623D8B93A009FBA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA0A4823D5AAE3005ECDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE235FAD23D60E5F000B756E /* Rubik-Bold.ttf in Resources */,
+				CEEA0A5A23D5AAE4005ECDAB /* LaunchScreen.storyboard in Resources */,
+				CE235FA723D60E5F000B756E /* Rubik-LightItalic.ttf in Resources */,
+				CE235FAA23D60E5F000B756E /* Rubik-Black.ttf in Resources */,
+				CEABD82223D777A3009C63C7 /* Assets.xcassets in Resources */,
+				CE235FA823D60E5F000B756E /* Rubik-Italic.ttf in Resources */,
+				CE235FA623D60E5F000B756E /* Rubik-BlackItalic.ttf in Resources */,
+				CE235FAE23D60E5F000B756E /* Rubik-MediumItalic.ttf in Resources */,
+				CE235FAB23D60E5F000B756E /* Rubik-Medium.ttf in Resources */,
+				CE235FAC23D60E5F000B756E /* Rubik-Light.ttf in Resources */,
+				CE235FAF23D60E5F000B756E /* Rubik-Regular.ttf in Resources */,
+				CE235FA923D60E5F000B756E /* Rubik-BoldItalic.ttf in Resources */,
+				CEEA0A5523D5AAE3005ECDAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9A232623D8B932009FBA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9A232D23D8B932009FBA4B /* NarobilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9A233423D8B93A009FBA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9A233B23D8B93A009FBA4B /* NarobilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA0A4623D5AAE3005ECDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEA0A6D23D5EDA8005ECDAB /* Presentermanager.swift in Sources */,
+				CEEA0A6823D5D726005ECDAB /* Constants.swift in Sources */,
+				CEEA0A6A23D5DF87005ECDAB /* SettingsViewController.swift in Sources */,
+				CE9A22AD23D85F48009FBA4B /* RegisterViewController.swift in Sources */,
+				CE235FB223D60FF9000B756E /* OnboardingViewController.swift in Sources */,
+				CEEA0A4E23D5AAE3005ECDAB /* AppDelegate.swift in Sources */,
+				CEEA0A5023D5AAE3005ECDAB /* SceneDelegate.swift in Sources */,
+				CEEDF64A23D9D6DE00AABAF7 /* LupaSandiViewController.swift in Sources */,
+				CEEA0A6323D5AE84005ECDAB /* LoadingViewController.swift in Sources */,
+				CEEA0A6623D5CF82005ECDAB /* Helper.swift in Sources */,
+				CE235FB523D6242D000B756E /* OnboardingCollectionViewCell.swift in Sources */,
+				CE235FB823D624DC000B756E /* Slide.swift in Sources */,
+				CEABD82423D82963009C63C7 /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE9A233023D8B932009FBA4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEEA0A4923D5AAE3005ECDAB /* Narobil */;
+			targetProxy = CE9A232F23D8B932009FBA4B /* PBXContainerItemProxy */;
+		};
+		CE9A233E23D8B93A009FBA4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEEA0A4923D5AAE3005ECDAB /* Narobil */;
+			targetProxy = CE9A233D23D8B93A009FBA4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEEA0A5323D5AAE3005ECDAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEA0A5423D5AAE3005ECDAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEEA0A5823D5AAE4005ECDAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEA0A5923D5AAE4005ECDAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE9A233223D8B932009FBA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5VL7CU44H;
+				INFOPLIST_FILE = NarobilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpa.NarobilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Narobil;
+			};
+			name = Debug;
+		};
+		CE9A233323D8B932009FBA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5VL7CU44H;
+				INFOPLIST_FILE = NarobilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpa.NarobilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Narobil;
+			};
+			name = Release;
+		};
+		CE9A234023D8B93A009FBA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5VL7CU44H;
+				INFOPLIST_FILE = NarobilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpa.NarobilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Narobil.app/Narobil";
+			};
+			name = Debug;
+		};
+		CE9A234123D8B93A009FBA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5VL7CU44H;
+				INFOPLIST_FILE = NarobilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpa.NarobilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Narobil.app/Narobil";
+			};
+			name = Release;
+		};
+		CEEA0A5C23D5AAE4005ECDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEEA0A5D23D5AAE4005ECDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEEA0A5F23D5AAE4005ECDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5VL7CU44H;
+				INFOPLIST_FILE = Narobil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpa.Narobil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEEA0A6023D5AAE4005ECDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5VL7CU44H;
+				INFOPLIST_FILE = Narobil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpa.Narobil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9A233123D8B932009FBA4B /* Build configuration list for PBXNativeTarget "NarobilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9A233223D8B932009FBA4B /* Debug */,
+				CE9A233323D8B932009FBA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9A233F23D8B93A009FBA4B /* Build configuration list for PBXNativeTarget "NarobilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9A234023D8B93A009FBA4B /* Debug */,
+				CE9A234123D8B93A009FBA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEA0A4523D5AAE3005ECDAB /* Build configuration list for PBXProject "Narobil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEA0A5C23D5AAE4005ECDAB /* Debug */,
+				CEEA0A5D23D5AAE4005ECDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEA0A5E23D5AAE4005ECDAB /* Build configuration list for PBXNativeTarget "Narobil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEA0A5F23D5AAE4005ECDAB /* Debug */,
+				CEEA0A6023D5AAE4005ECDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEEA0A4223D5AAE3005ECDAB /* Project object */;
+}
